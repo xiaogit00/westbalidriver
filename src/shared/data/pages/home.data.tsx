@@ -14,6 +14,12 @@ import {
   IconMapPin,
   IconPhoneCall,
   IconRocket,
+  IconCircleArrowDownFilled,
+  IconBrandWhatsapp,
+  IconPhotoHeart,
+  IconCarFilled,
+  IconCreditCard,
+  IconMap2
 } from '@tabler/icons-react';
 import {
   CallToActionProps,
@@ -28,7 +34,7 @@ import {
   TeamProps,
   TestimonialsProps,
 } from '../../types';
-import heroImg from '~/assets/images/hero.jpg';
+import bali_hero from '~/assets/images/bali_hero.jpg';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
@@ -41,34 +47,29 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      Discover Bali Like a Local – Private Tours Tailored for You
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
-        </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
+        Experience the island’s hidden gems, breathtaking nature, and authentic culture with your own English-speaking local guide.
       </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
     </>
   ),
   callToAction: {
-    text: 'Get template',
+    text: 'All tour packges',
     href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
+    icon: IconCircleArrowDownFilled,
     targetBlank: true,
   },
   callToAction2: {
-    text: 'Learn more',
+    text: 'Contact us',
     href: '/',
+    icon: IconBrandWhatsapp,
   },
   image: {
-    src: heroImg,
+    src: bali_hero,
     alt: 'Hero TailNext',
   },
 };
@@ -104,33 +105,33 @@ export const socialProofHome: SocialProofProps = {
 // Features data on Home page *******************
 export const featuresHome: FeaturesProps = {
   id: 'features-on-home',
-  hasBackground: false,
+  hasBackground: true,
   columns: 3,
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
+        Why Choose <span className="whitespace-nowrap">West Bali Driver</span>?
       </>
     ),
     subtitle:
-      "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
-    tagline: 'Features',
+      "At West Driver Bali, we believe your holiday should be more than just sightseeing—it should be a personal journey into the heart of the island.",
+    tagline: 'Yes, yes, there is Grab, Gojek, etc...',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
+      title: 'Led by Certified Local Experts',
       description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-      icon: IconBrandTailwind,
+        "Travel with guides who grew up here and know Bali by heart.",
+      icon: IconPhotoHeart,
       callToAction: {
         text: 'Discover now',
         href: '/',
       },
     },
     {
-      title: 'Ready-to-use Components',
+      title: 'No Hidden Fees',
       description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+        'Transparent pricing and trusted service.',
       icon: IconComponents,
       callToAction: {
         text: 'Discover now',
@@ -138,39 +139,39 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Best Practices',
+      title: 'Private & Comfortable',
       description:
-        'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
-      icon: IconListCheck,
+        "Enjoy the island at your pace, in a clean, air-conditioned car.",
+      icon: IconCarFilled,
       callToAction: {
         text: 'Discover now',
         href: '/',
       },
     },
     {
-      title: 'Excellent Page Speed',
+      title: 'Secure, Cashless Booking',
       description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-      icon: IconRocket,
+        'Easy payments for peace of mind.',
+      icon: IconCreditCard,
       callToAction: {
         text: 'Discover now',
         href: '/',
       },
     },
     {
-      title: 'Search Engine Optimization (SEO)',
+      title: 'Custom Itinerary',
       description:
-        "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
-      icon: IconArrowsRightLeft,
+        "Whether you love nature, culture, or adventure, we create a trip just for you.",
+      icon: IconMap2,
       callToAction: {
         text: 'Discover now',
         href: '/',
       },
     },
     {
-      title: 'Open to new ideas and contributions',
+      title: 'We serve from the heart',
       description:
-        'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
+        'We believe in giving only the best energy to the world :)',
       icon: IconBulb,
       callToAction: {
         text: 'Discover now',
@@ -187,7 +188,7 @@ export const contentHomeOne: ContentProps = {
   header: {
     title: 'Aliquip definiebas ad est',
     subtitle: 'Quando cetero his ne, eum admodum sapientem ut',
-    tagline: 'Content',
+    tagline: 'Not sure where to go?',
   },
   content:
     'Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.',
