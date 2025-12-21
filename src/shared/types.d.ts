@@ -279,7 +279,7 @@ type FeaturesProps = Widget & {
 
 type ContentProps = Widget & {
   header?: Header;
-  content?: string;
+  content?: string | ReactElement;
   items?: Array<Item>;
   image?: Image;
   isReversed?: boolean;

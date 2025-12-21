@@ -51,7 +51,7 @@ const ItemTestimonial = ({
           <blockquote className={twMerge('flex-auto', testimonialClass)}>
             <p className="font-light dark:text-slate-400">
               {startSlice !== undefined && endSlice !== undefined
-                ? `" ${testimonial.slice(Number(startSlice), Number(endSlice))}... "`
+                ? `" ${testimonial.slice(Number(startSlice), Number(endSlice))} "`
                 : `" ${testimonial} "`}
             </p>
           </blockquote>

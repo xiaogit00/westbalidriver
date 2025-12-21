@@ -35,19 +35,23 @@ import {
   TestimonialsProps,
 } from '../../types';
 import bali_hero from '~/assets/images/bali_hero.jpg';
+import alingalingwaterfall from '~/assets/images/alingalingwaterfall.jpg';
+import jatiluwihRiceTerrace from '~/assets/images/jatiluwihRiceTerrace.jpg';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
-import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
+import ubud from '~/assets/images/ubud.jpeg';
+import uluwatu from '~/assets/images/uluwatu.jpg';
+import sunrisecoffee from '~/assets/images/sunrisecoffee.jpeg';
 import gasImg from '~/assets/images/gas.jpg';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
   title: (
     <>
-      Discover Bali Like a Local – Private Tours Tailored for You
+      Discover Bali like a local - private tours tailored specially for you.
     </>
   ),
   subtitle: (
@@ -115,7 +119,7 @@ export const featuresHome: FeaturesProps = {
     ),
     subtitle:
       "At West Driver Bali, we believe your holiday should be more than just sightseeing—it should be a personal journey into the heart of the island.",
-    tagline: 'Yes, yes, there is Grab, Gojek, etc...',
+    tagline: '',
   },
   items: [
     {
@@ -186,31 +190,34 @@ export const contentHomeOne: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   header: {
-    title: 'Aliquip definiebas ad est',
-    subtitle: 'Quando cetero his ne, eum admodum sapientem ut',
+    title: 'Most popular Bali inclusive tour packages',
+    subtitle: '',
     tagline: 'Not sure where to go?',
   },
   content:
-    'Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.',
+    (<>
+      <b>Northern Charm Tour</b> - Escape the crowds and uncover the serene beauty of Bali’s northern highlands on our Bali Countryside Tour. 
+      <p><em>Price: IDR 775,000/person (Minimum 2 persons)</em></p>
+    </>),
   items: [
     {
-      title: 'Per ei quaeque sensibus',
+      title: 'Jatiluwih rice terraces',
       description:
-        'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
+        'Walk through the expansive Jatiluwih rice terraces (UNESCO site)',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
+      title: 'Ulun Danu Beratan Lake Temple',
       description:
-        'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
+        'Admire the floating temple of Ulun Danu Beratan',
     },
     {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'Banyumala Twin Waterfalls',
       description:
-        'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
+        'Swim beneath the lush Banyumala Twin Waterfalls',
     },
   ],
   image: {
-    src: cameraFrontImg,
+    src: jatiluwihRiceTerrace,
     alt: 'Colorful Image',
   },
   isReversed: false,
@@ -222,29 +229,87 @@ export const contentHomeTwo: ContentProps = {
   id: 'contentOne-on-home-two',
   hasBackground: true,
   content:
-    'Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus. Ea his tale nib dissentias, mei exerci tamquam euripidis cu.',
+    (<>
+      <b>Ubud Highlight Tour</b> - Explore Bali’s cultural heart with our private Ubud day tour 
+      <p><em>Price: IDR 680.000/person (Min. 2 persons)</em></p>
+    </>),
   items: [
     {
-      title: 'Per ei quaeque sensibus',
+      title: 'Visit an ancient Balinese temple',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
+      title: 'Explore the Sacred Monkey Forest',
     },
     {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'Enjoy a single swing with stunning rice terrace views',
     },
     {
-      title: 'Per ei quaeque sensibus',
-    },
-    {
-      title: 'Cu imperdiet posidonium sed',
-    },
-    {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'Perfect for couples, families, or friends who want to explore Ubud without the constraints of group tours',
     },
   ],
   image: {
-    src: cameraBackImg,
+    src: ubud,
+    alt: 'Colorful Image',
+  },
+  isReversed: true,
+  isAfterContent: true,
+};
+
+// Content data on Home page *******************
+export const contentHomeThree: ContentProps = {
+  id: 'contentOne-on-home-three',
+  hasBackground: true,
+  content:
+    (<>
+      <b>Uluwatu Tour</b> - Enjoy a full Uluwatu day tour with banana boat ride 
+      <p><em>Price: IDR 650.000/person (Min. 2 persons)</em></p>
+    </>),
+  items: [
+    {
+      title: 'Free banana boat ride at Tanjung Benoa',
+    },
+    {
+      title: 'Visit the iconic Padang Padang Beach',
+    },
+    {
+      title: 'Explore Uluwatu Temple on the cliff edge',
+    },
+    {
+      title: 'Watch the Kecak fire dance at sunset',
+    },
+    {
+      title: 'Optional seafood dinner by the ocean',
+    },
+  ],
+  image: {
+    src: uluwatu,
+    alt: 'Colorful Image',
+  },
+  isReversed: false,
+  isAfterContent: true,
+};
+
+export const contentHomeFour: ContentProps = {
+  id: 'contentOne-on-home-four',
+  hasBackground: true,
+  content:
+    (<>
+      <b>Sunrise Coffee, Traditional Village & Waterfall Tour</b> - Enjoy your morning coffee with stunning views of Mount Batur from Kintamani, explore the peaceful Panglipuran traditional village, and cool off with a refreshing swim at Taman Sari Waterfall. 
+      <p><em>Price: IDR 630.000/person (Min. 2 persons)</em></p>
+    </>),
+  items: [
+    {
+      title: 'Sunrise coffee overlooking Mount Batur in Kintamani',
+    },
+    {
+      title: 'Visit Panglipuran, one of Bali’s most beautiful traditional villages',
+    },
+    {
+      title: 'Swim at the scenic and serene Taman Sari Waterfall',
+    },
+  ],
+  image: {
+    src: sunrisecoffee,
     alt: 'Colorful Image',
   },
   isReversed: true,
@@ -262,29 +327,29 @@ export const stepsHome: StepsProps = {
     alt: 'Steps image',
   },
   header: {
-    title: 'Sed ac magna sit amet risus tristique interdum.',
+    title: "Of course, those are just ideas. We know everyone is different - so tell us what you like (surfing, dirt biking, cafe-hopping?), and we'll design something special for you.",
   },
   items: [
     {
       title: 'Step 1',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+        "Contact us on Whatsapp with the kind of activities that you're interested in, and how long you're going to be here.",
       icon: IconArrowDown,
     },
     {
       title: 'Step 2',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        "We'll get back to you with a suggested itinerary, as well as the price.",
       icon: IconArrowDown,
     },
     {
       title: 'Step 3',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        "Confirm your booking by proceeding to checkout.",
       icon: IconArrowDown,
     },
     {
-      title: 'Ready!',
+      title: "You're all set! We'll be waiting for you in Bali :) ",
     },
   ],
 };
@@ -296,13 +361,13 @@ export const testimonialsHome: TestimonialsProps = {
   header: {
     title: 'What our customers say about us',
     subtitle:
-      'Etiam sed odio et dolor auctor gravida. Curabitur tincidunt elit non risus pharetra sodales. Etiam sit amet mattis massa.',
+      '',
   },
   testimonials: [
     {
-      name: 'Tayla Kirsten',
-      job: 'Marketing Manager',
-      testimonial: `I'm impressed by the speed and performance of these templates. My website now loads in the blink of an eye, significantly enhancing my visitors' experience. Thanks to TailNext, my online business is thriving.`,
+      name: 'Sarah M.',
+      job: 'United States',
+      testimonial: `We honestly couldn’t have asked for a better experience in Bali. Our driver was always on time, super friendly, and knew the island like the back of his hand. He suggested places we would never have found on our own, including a small local restaurant with the best nasi goreng I’ve ever had. He made us feel safe and relaxed the entire trip. Bali wouldn’t have been the same without him.`,
       image: {
         src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Tayla Kirsten',
@@ -310,9 +375,9 @@ export const testimonialsHome: TestimonialsProps = {
       href: '/',
     },
     {
-      name: 'Silver Jordan',
-      job: 'Senior Marketer',
-      testimonial: `I had never found it so easy to customize a website. TailNext's templates are incredibly flexible, and with Tailwind CSS, I've managed to give my website the look and feel I always wanted. Highly recommended!`,
+      name: 'Luca & Francesca',
+      job: 'Italy',
+      testimonial: `This was our first time in Bali and we were a bit overwhelmed at the start, but our guide made everything so easy. He explained the culture, temples, and traditions with real passion, not like a rehearsed tour. We loved that he was flexible and adjusted the schedule based on what we enjoyed most. It felt more like traveling with a local friend than a tour guide.`,
       image: {
         src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Silver Jordan',
@@ -320,9 +385,9 @@ export const testimonialsHome: TestimonialsProps = {
       href: '/',
     },
     {
-      name: 'Kelsey Arden',
-      job: 'Co-Founder & CEO',
-      testimonial: `As a beginner in web development, I really needed clear guidance. Tailnext made it possible. I was able to install and customize my website seamlessly, and I'm thrilled with the results!`,
+      name: 'Hannah W.',
+      job: 'United Kingdom',
+      testimonial: `Absolutely brilliant service from start to finish. Communication before arrival was clear and fast, and during the trip everything ran smoothly. Our driver was calm, patient, and had a great sense of humor. Bali traffic can be crazy, but I always felt completely comfortable. I would 100% book again and recommend to anyone visiting Bali.`,
       image: {
         src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Kelsey Arden',
@@ -330,9 +395,9 @@ export const testimonialsHome: TestimonialsProps = {
       href: '/',
     },
     {
-      name: 'Sarah Johnson',
-      job: 'Business Owner',
-      testimonial: `They've not only saved me a ton of time but have also made my websites look incredibly professional. The level of detail and thought that went into designing these templates is truly impressive.`,
+      name: 'Kenji S.',
+      job: 'Japan',
+      testimonial: `I travel often and have used many guides, but this experience really stood out. The guide was very respectful, knowledgeable, and attentive to small details. He took great photos for me and made sure I understood the history behind each place we visited. The pace was perfect — not rushed, not slow. It was a very memorable trip.`,
       image: {
         src: 'https://images.unsplash.com/photo-1572417884940-c24659be6068?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Sarah Johnson',
@@ -340,9 +405,9 @@ export const testimonialsHome: TestimonialsProps = {
       href: '/',
     },
     {
-      name: 'Keith Young',
-      job: 'Freelance Developer',
-      testimonial: `The clean code and integration with Next.js make my projects a breeze. Plus, the responsive design ensures that my clients' websites look amazing on any device. These templates have become my secret weapon for success!`,
+      name: 'Emily & Josh',
+      job: 'Australia',
+      testimonial: `We booked a full-day tour and ended up extending it because we were having such a great time. Our driver gave us amazing recommendations, from waterfalls to hidden viewpoints, and even helped us avoid crowded tourist spots. He genuinely cared that we were enjoying ourselves. Best decision we made on our Bali holiday.`,
       image: {
         src: 'https://images.unsplash.com/photo-1694287877106-ee22f764aef1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Keith Young',
@@ -350,9 +415,9 @@ export const testimonialsHome: TestimonialsProps = {
       href: '/',
     },
     {
-      name: 'Lisa Gordon',
-      job: 'Project Manager',
-      testimonial: `Their templates are not only stunning but also user-friendly. The support I received from their community has been exceptional. I'm proud to say that I've built my dream website with TailNext.`,
+      name: 'Thomas R.',
+      job: 'Germany',
+      testimonial: `Professional, reliable, and extremely knowledgeable. The car was clean and comfortable, and the driving was smooth even on long journeys. What impressed me most was how well he explained Balinese culture and daily life — it added so much depth to the trip. This service is worth every rupiah.`,
       image: {
         src: 'https://images.unsplash.com/photo-1665984867752-6370ab5ae35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Lisa Gordon',
@@ -369,34 +434,30 @@ export const faqs2Home: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      "We're here to answer your questions.",
     tagline: 'FAQS',
   },
   items: [
     {
-      title: 'What do I need to start?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'Do you offer private or group tours?',
+      description: `All our tours are 100% private, which means it’s just you, your companions, and our local guide. This ensures a more personal, flexible, and comfortable experience compared to group tours.`,
     },
     {
-      title: 'How to install the NextJS + Tailwind CSS template?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'What’s included in the tour price?',
+      description: `Our all-inclusive pricing covers a private car, English-speaking local driver/guide, entrance fees or donations, bottled water, and in some tours, special activities like swings or banana boat rides. Meals and tips are not included unless stated.`,
     },
     {
-      title: "What's something that you completely don't understand?",
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: "Can I customize my itinerary?",
+      description: `Absolutely! You can choose from our curated tour packages or tell us what you like, and we’ll create a tailor-made route that fits your schedule and interests.`,
     },
     {
-      title: "What's an example of when you changed your mind?",
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: "How do I book and pay for a tour?",
+      description: `Booking is easy—you can reserve directly through our website, WhatsApp, or email. We accept secure, cashless payments via credit card, PayPal, and bank transfer. Cash payments in IDR or USD are also welcome.`,
     },
     {
-      title: 'What is something that you would really like to try again?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
-    },
-    {
-      title: 'If you could only ask one question to each person you meet, what would that question be?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
-    },
+      title: 'Do you cater to special requests or needs?',
+      description: `Yes! Whether it’s dietary preferences, celebrating a special occasion, or arranging a sunrise pickup, our team is happy to accommodate. Please let us know in advance so we can prepare everything for you.`,
+    }
   ],
 };
 
@@ -495,9 +556,9 @@ export const teamHome: TeamProps = {
   id: 'team-on-home',
   hasBackground: false,
   header: {
-    title: 'Team Members',
+    title: 'Meet our team!',
     subtitle:
-      'Suspendisse in dui nibh. Donec enim leo, sodales et egestas id, malesuada non diam. Sed dapibus velit et mauris condimentum, vel imperdiet erat egestas.',
+      'These are the individuals making magic happen ✨',
     // tagline: 'Team',
   },
   teams: [
@@ -609,7 +670,7 @@ export const contactHome: ContactProps = {
   hasBackground: true,
   header: {
     title: 'Get in Touch',
-    subtitle: 'In hac habitasse platea dictumst',
+    subtitle: "Leave a message to us on Whatsapp!",
     tagline: 'Contact',
   },
   content:
