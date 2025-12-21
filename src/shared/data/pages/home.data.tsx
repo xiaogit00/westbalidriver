@@ -28,6 +28,7 @@ import {
   FAQsProps,
   FeaturesProps,
   HeroProps,
+  Icon,
   PricingProps,
   SocialProofProps,
   StepsProps,
@@ -64,13 +65,13 @@ export const heroHome: HeroProps = {
   callToAction: {
     text: 'All tour packges',
     href: 'https://github.com/onwidget/tailnext',
-    icon: IconCircleArrowDownFilled,
+    icon: IconCircleArrowDownFilled as Icon,
     targetBlank: true,
   },
   callToAction2: {
     text: 'Contact us',
     href: '/',
-    icon: IconBrandWhatsapp,
+    icon: IconBrandWhatsapp as Icon,
   },
   image: {
     src: bali_hero,
@@ -126,7 +127,7 @@ export const featuresHome: FeaturesProps = {
       title: 'Led by Certified Local Experts',
       description:
         "Travel with guides who grew up here and know Bali by heart.",
-      icon: IconPhotoHeart,
+      icon: IconPhotoHeart as Icon,
       callToAction: {
         text: 'Discover now',
         href: '/',
@@ -136,7 +137,7 @@ export const featuresHome: FeaturesProps = {
       title: 'No Hidden Fees',
       description:
         'Transparent pricing and trusted service.',
-      icon: IconComponents,
+      icon: IconComponents as Icon,
       callToAction: {
         text: 'Discover now',
         href: '/',
@@ -146,7 +147,7 @@ export const featuresHome: FeaturesProps = {
       title: 'Private & Comfortable',
       description:
         "Enjoy the island at your pace, in a clean, air-conditioned car.",
-      icon: IconCarFilled,
+      icon: IconCarFilled as Icon,
       callToAction: {
         text: 'Discover now',
         href: '/',
@@ -156,7 +157,7 @@ export const featuresHome: FeaturesProps = {
       title: 'Secure, Cashless Booking',
       description:
         'Easy payments for peace of mind.',
-      icon: IconCreditCard,
+      icon: IconCreditCard as Icon,
       callToAction: {
         text: 'Discover now',
         href: '/',
@@ -166,7 +167,7 @@ export const featuresHome: FeaturesProps = {
       title: 'Custom Itinerary',
       description:
         "Whether you love nature, culture, or adventure, we create a trip just for you.",
-      icon: IconMap2,
+      icon: IconMap2 as Icon,
       callToAction: {
         text: 'Discover now',
         href: '/',
@@ -176,7 +177,7 @@ export const featuresHome: FeaturesProps = {
       title: 'We serve from the heart',
       description:
         'We believe in giving only the best energy to the world :)',
-      icon: IconBulb,
+      icon: IconBulb as Icon,
       callToAction: {
         text: 'Discover now',
         href: '/',
@@ -334,19 +335,19 @@ export const stepsHome: StepsProps = {
       title: 'Step 1',
       description:
         "Contact us on Whatsapp with the kind of activities that you're interested in, and how long you're going to be here.",
-      icon: IconArrowDown,
+      icon: IconArrowDown as Icon,
     },
     {
       title: 'Step 2',
       description:
         "We'll get back to you with a suggested itinerary, as well as the price.",
-      icon: IconArrowDown,
+      icon: IconArrowDown as Icon,
     },
     {
       title: 'Step 3',
       description:
         "Confirm your booking by proceeding to checkout.",
-      icon: IconArrowDown,
+      icon: IconArrowDown as Icon,
     },
     {
       title: "You're all set! We'll be waiting for you in Bali :) ",
@@ -572,17 +573,17 @@ export const teamHome: TeamProps = {
       items: [
         {
           title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
+          icon: IconBrandTwitter as Icon,
           href: '#',
         },
         {
           title: 'Know more on Linkedin',
-          icon: IconBrandLinkedin,
+          icon: IconBrandLinkedin as Icon,
           href: '#',
         },
         {
           title: 'Contact by email',
-          icon: IconMail,
+          icon: IconMail as Icon,
           href: '#',
         },
       ],
@@ -597,17 +598,17 @@ export const teamHome: TeamProps = {
       items: [
         {
           title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
+          icon: IconBrandTwitter as Icon,
           href: '#',
         },
         {
           title: 'Know more on Linkedin',
-          icon: IconBrandLinkedin,
+          icon: IconBrandLinkedin as Icon,
           href: '#',
         },
         {
           title: 'Contact by email',
-          icon: IconMail,
+          icon: IconMail as Icon,
           href: '#',
         },
       ],
@@ -622,17 +623,17 @@ export const teamHome: TeamProps = {
       items: [
         {
           title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
+          icon: IconBrandTwitter as Icon,
           href: '#',
         },
         {
           title: 'Know more on Linkedin',
-          icon: IconBrandLinkedin,
+          icon: IconBrandLinkedin as Icon,
           href: '#',
         },
         {
           title: 'Contact by email',
-          icon: IconMail,
+          icon: IconMail as Icon,
           href: '#',
         },
       ],
@@ -647,17 +648,17 @@ export const teamHome: TeamProps = {
       items: [
         {
           title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
+          icon: IconBrandTwitter as Icon,
           href: '#',
         },
         {
           title: 'Know more on Linkedin',
-          icon: IconBrandLinkedin,
+          icon: IconBrandLinkedin as Icon,
           href: '#',
         },
         {
           title: 'Contact by email',
-          icon: IconMail,
+          icon: IconMail as Icon,
           href: '#',
         },
       ],
@@ -679,17 +680,17 @@ export const contactHome: ContactProps = {
     {
       title: 'Our Address',
       description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
-      icon: IconMapPin,
+      icon: IconMapPin as Icon,
     },
     {
       title: 'Contact',
       description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
-      icon: IconPhoneCall,
+      icon: IconPhoneCall as Icon,
     },
     {
       title: 'Working hours',
       description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
-      icon: IconClock,
+      icon: IconClock as Icon,
     },
   ],
   form: {
@@ -729,7 +730,7 @@ export const callToAction2Home: CallToActionProps = {
   callToAction: {
     text: 'Get template',
     href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
+    icon: IconDownload as Icon,
   },
   items: [
     {
@@ -746,7 +747,7 @@ export const callToAction2Home: CallToActionProps = {
       title: 'Subscribe',
       description: 'Morbi orci nunc, euismod ac dui id, convallis.',
       form: {
-        icon: IconMail,
+        icon: IconMail as Icon,
         input: {
           type: 'email',
           name: 'email',

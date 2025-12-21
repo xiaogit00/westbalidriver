@@ -9,6 +9,10 @@ import {
 } from '@tabler/icons-react';
 
 import {
+ Icon
+} from '../../types';
+
+import {
   CallToActionProps,
   ContentProps,
   FAQsProps,
@@ -47,33 +51,33 @@ export const features2Services: FeaturesProps = {
     {
       title: 'Next.Js + Tailwind CSS Integration',
       description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
-      icon: IconBrandTailwind,
+      icon: IconBrandTailwind as Icon,
     },
     {
       title: 'Ready-to-use Components',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      icon: IconComponents,
+      icon: IconComponents as Icon,
     },
     {
       title: 'Best Practices',
       description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
-      icon: IconListCheck,
+      icon: IconListCheck as Icon,
     },
     {
       title: 'Excellent Page Speed',
       description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
-      icon: IconRocket,
+      icon: IconRocket as Icon,
     },
     {
       title: 'Search Engine Optimization (SEO)',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-      icon: IconArrowsRightLeft,
+      icon: IconArrowsRightLeft as Icon,
     },
     {
       title: 'Open to new ideas and contributions',
       description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
-      icon: IconBulb,
+      icon: IconBulb as Icon,
     },
   ],
 };
@@ -162,33 +166,33 @@ export const features4Services: FeaturesProps = {
     {
       title: 'Next.Js + Tailwind CSS Integration',
       description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
-      icon: IconBrandTailwind,
+      icon: IconBrandTailwind as Icon,
     },
     {
       title: 'Ready-to-use Components',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      icon: IconComponents,
+      icon: IconComponents as Icon,
     },
     {
       title: 'Best Practices',
       description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
-      icon: IconListCheck,
+      icon: IconListCheck as Icon,
     },
     {
       title: 'Excellent Page Speed',
       description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
-      icon: IconRocket,
+      icon: IconRocket as Icon,
     },
     {
       title: 'Search Engine Optimization (SEO)',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-      icon: IconArrowsRightLeft,
+      icon: IconArrowsRightLeft as Icon,
     },
     {
       title: 'Open to new ideas and contributions',
       description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
-      icon: IconBulb,
+      icon: IconBulb as Icon,
     },
   ],
 };
@@ -261,17 +265,17 @@ export const faqsServices: FAQsProps = {
     {
       title: 'What if I need help customizing the template?',
       description: `Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent imperdiet ultricies ex consequat egestas.`,
-      icon: IconChevronsRight,
+      icon: IconChevronsRight as Icon,
     },
     {
       title: 'Are there setup guides available?',
       description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
-      icon: IconChevronsRight,
+      icon: IconChevronsRight as Icon,
     },
     {
       title: 'Can I hire you for template customization?',
       description: `Phasellus est quam, mollis tincidunt dictum pulvinar, tempor vel justo. Mauris eu lobortis leo. Proin pretium arcu lectus, a mattis nisi fermentum quis.`,
-      icon: IconChevronsRight,
+      icon: IconChevronsRight as Icon,
     },
   ],
 };

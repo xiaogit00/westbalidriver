@@ -4,6 +4,7 @@ import { StepsProps } from '~/shared/types';
 import WidgetWrapper from '../common/WidgetWrapper';
 import Timeline from '../common/Timeline';
 import Headline from '../common/Headline';
+import { ContentProps, Icon } from '~/shared/types';
 
 const Steps = ({
   id,
@@ -33,7 +34,7 @@ const Steps = ({
             subtitleClass={isImageDisplayed ? 'text-left rtl:text-right' : ''}
           />
         )}
-        <Timeline items={items} defaultIcon={IconCheck} iconClass="text-primary border-primary-900" />
+        <Timeline items={items} defaultIcon={IconCheck as Icon} iconClass="text-primary border-primary-900" />
       </div>
       {isImageDisplayed && (
         <div className="relative md:basis-1/2">

@@ -25,42 +25,30 @@ export const announcementData: AnnouncementProps = {
 export const headerData: HeaderProps = {
   links: [
     {
-      label: 'Pages',
-      icon: IconChevronDown,
+      label: 'Tours',
+      icon: IconChevronDown as any,
       links: [
         {
-          label: 'Services',
+          label: 'Nothern Bali Tour',
           href: '/services',
         },
         {
-          label: 'Pricing',
+          label: 'Ubud Highlight Tour',
           href: '/pricing',
         },
         {
-          label: 'About us',
+          label: 'Uluwatu Tour',
           href: '/about',
         },
         {
-          label: 'Contact us',
+          label: 'Sunrise Coffee tour',
           href: '/contact',
-        },
-        {
-          label: 'FAQs',
-          href: '/faqs',
-        },
-        {
-          label: 'Terms & Conditions',
-          href: '/terms',
-        },
-        {
-          label: 'Privacy Policy',
-          href: '/privacy',
         },
       ],
     },
     {
-      label: 'Blog',
-      href: '/blog',
+      label: 'About Us',
+      href: '/about-us',
     },
     {
       label: 'Contact',
@@ -68,11 +56,7 @@ export const headerData: HeaderProps = {
     },
   ],
   actions: [
-    {
-      text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
-      targetBlank: true,
-    },
+    
   ],
   isSticky: true,
   showToggleTheme: true,
@@ -200,11 +184,11 @@ export const footerData: FooterProps = {
     },
   ],
   socials: [
-    { label: 'Twitter', icon: IconBrandTwitter, href: '#' },
-    { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
-    { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
-    { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
+    { label: 'Twitter', icon: IconBrandTwitter as any, href: '#' },
+    { label: 'Instagram', icon: IconBrandInstagram as any, href: '#' },
+    { label: 'Facebook', icon: IconBrandFacebook as any, href: '#' },
+    { label: 'RSS', icon: IconRss as any, href: '#' },
+    { label: 'Github', icon: IconBrandGithub as any, href: 'https://github.com/onwidget/tailnext' },
   ],
   footNote: (
     <div className="mr-4 rtl:mr-0 rtl:ml-4 text-sm">
@@ -251,11 +235,11 @@ export const footerData2: FooterProps = {
     },
   ],
   socials: [
-    { label: 'Twitter', icon: IconBrandTwitter, href: '#' },
-    { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
-    { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
-    { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
+    { label: 'Twitter', icon: IconBrandTwitter as any, href: '#' },
+    { label: 'Instagram', icon: IconBrandInstagram as any, href: '#' },
+    { label: 'Facebook', icon: IconBrandFacebook as any, href: '#' },
+    { label: 'RSS', icon: IconRss as any, href: '#' },
+    { label: 'Github', icon: IconBrandGithub as any, href: 'https://github.com/onwidget/tailnext' },
   ],
   footNote: (
     <div className="mr-4 rtl:mr-0 rtl:ml-4 text-sm">

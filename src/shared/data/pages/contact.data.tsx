@@ -31,17 +31,17 @@ export const contact2Contact: ContactProps = {
     {
       title: 'Our Address',
       description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
-      icon: IconMapPin,
+      icon: IconMapPin as any,
     },
     {
       title: 'Contact',
       description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
-      icon: IconPhoneCall,
+      icon: IconPhoneCall as any,
     },
     {
       title: 'Working hours',
       description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
-      icon: IconClock,
+      icon: IconClock as any,
     },
   ],
   form: {
@@ -121,7 +121,7 @@ export const features2Contact: FeaturesProps = {
     {
       title: 'Have a question?',
       description: 'See our frequently asked questions',
-      icon: IconHelp,
+      icon: IconHelp as any,
       callToAction: {
         text: 'Go to FAQ page',
         href: '/faqs',
@@ -130,7 +130,7 @@ export const features2Contact: FeaturesProps = {
     {
       title: 'Chat with us',
       description: 'Live chat with our support team',
-      icon: IconMessages,
+      icon: IconMessages as any,
       callToAction: {
         text: 'Write to us',
         href: '/',
@@ -139,7 +139,7 @@ export const features2Contact: FeaturesProps = {
     {
       title: 'Get help',
       description: 'Speak to our team today',
-      icon: IconHeadset,
+      icon: IconHeadset as any,
       callToAction: {
         text: 'Call us',
         href: '/',

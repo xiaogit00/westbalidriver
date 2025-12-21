@@ -14,7 +14,7 @@ const Contact = ({ header, content, items, form, id, hasBackground = false }: Co
       <CTA callToAction={{
     text: 'Contact us',
     href: '/',
-    icon: IconBrandWhatsapp,
+    icon: IconBrandWhatsapp as any,
   }} linkClass="btn" />
     </div>
   </WidgetWrapper>
