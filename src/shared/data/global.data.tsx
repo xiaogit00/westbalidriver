@@ -25,26 +25,132 @@ export const announcementData: AnnouncementProps = {
 export const headerData: HeaderProps = {
   links: [
     {
-      label: 'Tours',
+      label: 'Ijen and Bromo Tours',
       icon: IconChevronDown as any,
       links: [
         {
-          label: 'Nothern Bali Tour',
+          label: 'All Ijen and Bromo Tours',
           href: '/services',
         },
         {
-          label: 'Ubud Highlight Tour',
+          label: 'One Day Trip Ijen',
+          href: '/services',
+        },
+        {
+          label: '2 Days 1 Night (Bali-Ijen-Bali)',
           href: '/pricing',
         },
         {
-          label: 'Uluwatu Tour',
+          label: '3 Days 2 Night (Bali-Ijen-Bromo-Bali)',
           href: '/about',
         },
         {
-          label: 'Sunrise Coffee tour',
+          label: '3 Days 3 Nights (Ijen - Tumpak Sewu Waterfall - Bromo',
           href: '/contact',
         },
       ],
+    },
+    {
+      label: 'Bali Full Day Tours',
+      icon: IconChevronDown as any,
+      links: [
+        {
+          label: 'All Bali Full Day Tours',
+          href: '/services',
+        },
+        {
+          label: 'East Bali Tour',
+          href: '/services',
+        },
+        {
+          label: 'South Bali Tour',
+          href: '/pricing',
+        },
+        {
+          label: 'Ubud Tour',
+          href: '/about',
+        },
+        {
+          label: 'Tanah Lot Tour',
+          href: '/contact',
+        },
+        {
+          label: 'Kintamani Tour',
+          href: '/contact',
+        },
+      ],
+    },
+    {
+      label: 'Nusa Penida Tours',
+      icon: IconChevronDown as any,
+      links: [
+        {
+          label: 'All Nusa Penida Tours',
+          href: '/services',
+        },
+        {
+          label: 'Snorkeling Nusa Penida',
+          href: '/contact',
+        },
+        {
+          label: 'West Nusa Penida',
+          href: '/services',
+        },
+        {
+          label: 'East Nusa Penida',
+          href: '/pricing',
+        },
+        {
+          label: 'Nusa Pedina Instagram Tour',
+          href: '/about',
+        },
+      ],
+    },
+    {
+      label: 'Bali Activities Tour',
+      icon: IconChevronDown as any,
+      links: [
+        {
+          label: 'All Bali Activities Tours',
+          href: '/services',
+        },
+        {
+          label: 'Bali Cycling Tour',
+          href: '/contact',
+        },
+        {
+          label: 'Mount Batur Sunrise Trekking',
+          href: '/services',
+        },
+        {
+          label: 'Trekking Mount Agung',
+          href: '/pricing',
+        },
+        {
+          label: 'ATV Ride Bali',
+          href: '/about',
+        },
+        {
+          label: 'Bali Jeep Tour',
+          href: '/about',
+        },
+        {
+          label: 'Bali Watersport & Diving',
+          href: '/about',
+        },
+        {
+          label: 'Ayung River Rafting',
+          href: '/about',
+        },
+        {
+          label: 'Telaga Waja River Rafting',
+          href: '/about',
+        },
+      ],
+    },
+    {
+      label: 'Airport transfers',
+      href: '/contact',
     },
     {
       label: 'About Us',

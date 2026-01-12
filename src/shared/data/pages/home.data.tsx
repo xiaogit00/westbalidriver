@@ -38,6 +38,7 @@ import {
 import bali_hero from '~/assets/images/bali_hero.jpg';
 import alingalingwaterfall from '~/assets/images/alingalingwaterfall.jpg';
 import jatiluwihRiceTerrace from '~/assets/images/jatiluwihRiceTerrace.jpg';
+import ijenCrater from '~/assets/images/ijenCrater.jpg';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
@@ -52,13 +53,13 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Discover Bali like a local - private tours tailored specially for you.
+      Your local professionals across the entire island.
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-        Experience the island’s hidden gems, breathtaking nature, and authentic culture with your own English-speaking local guide.
+        We go beyond the west. From hidden gems to iconic landmarks, explore every corner of Bali with professional local drivers who treat you like more than just a guest - you&apos;re family.
       </span>{' '}
     </>
   ),
@@ -119,14 +120,14 @@ export const featuresHome: FeaturesProps = {
       </>
     ),
     subtitle:
-      "At West Driver Bali, we believe your holiday should be more than just sightseeing—it should be a personal journey into the heart of the island.",
+      "Must read!!",
     tagline: '',
   },
   items: [
     {
-      title: 'Led by Certified Local Experts',
+      title: 'Island-wide expertise (Not just the West!)',
       description:
-        "Travel with guides who grew up here and know Bali by heart.",
+        "Don't let our name fool you. While our roots are in the beautiful West, our playground is the entire island. From the sacred temples of Besakih in the East to the majestic cliffs of Uluwatu in the South, we know every shortcut, hidden gem, and scenic route across Bali.",
       icon: IconPhotoHeart as Icon,
       callToAction: {
         text: 'Discover now',
@@ -134,9 +135,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'No Hidden Fees',
+      title: 'More Than Just Family',
       description:
-        'Transparent pricing and trusted service.',
+        'To us, you are never just a booking number. We welcome you with the same warmth we give our own kin. We ensure you feel safe, cared for, and completely at home from the moment you land until the moment we say goodbye.',
       icon: IconComponents as Icon,
       callToAction: {
         text: 'Discover now',
@@ -144,10 +145,30 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Private & Comfortable',
+      title: 'Certified Local Professionals',
       description:
-        "Enjoy the island at your pace, in a clean, air-conditioned car.",
+        "Our team consists of seasoned local drivers who are not only experts behind the wheel but also knowledgeable guides. We pride ourselves on punctuality, clear communication, and a deep understanding of Balinese culture and regulations.",
       icon: IconCarFilled as Icon,
+      callToAction: {
+        text: 'Discover now',
+        href: '/',
+      },
+    },
+    {
+      title: 'Authentic Local Insight',
+      description:
+        "Avoid the tourist traps. Being locals, we provide you with authentic recommendations—from the best 'Babi Guling' spots known only to residents to the quietest beaches for a sunset dip. Experience Bali like a local, not just a tourist.",
+      icon: IconMap2 as Icon,
+      callToAction: {
+        text: 'Discover now',
+        href: '/',
+      },
+    },
+    {
+      title: 'Transparent & Flexible Service',
+      description:
+        'No hidden fees, no stress. We offer flexible itineraries tailored to your pace and preferences. Your comfort is our priority, and we go the extra mile to ensure your Bali holiday is exactly how you dreamed it would be.',
+      icon: IconBulb as Icon,
       callToAction: {
         text: 'Discover now',
         href: '/',
@@ -156,28 +177,8 @@ export const featuresHome: FeaturesProps = {
     {
       title: 'Secure, Cashless Booking',
       description:
-        'Easy payments for peace of mind.',
+        'We know foreign currencies can be confusing - we offer different methods to pay or make a booking. No stress, just enjoy your holiday.',
       icon: IconCreditCard as Icon,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Custom Itinerary',
-      description:
-        "Whether you love nature, culture, or adventure, we create a trip just for you.",
-      icon: IconMap2 as Icon,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'We serve from the heart',
-      description:
-        'We believe in giving only the best energy to the world :)',
-      icon: IconBulb as Icon,
       callToAction: {
         text: 'Discover now',
         href: '/',
@@ -197,28 +198,28 @@ export const contentHomeOne: ContentProps = {
   },
   content:
     (<>
-      <b>Northern Charm Tour</b> - Escape the crowds and uncover the serene beauty of Bali’s northern highlands on our Bali Countryside Tour. 
-      <p><em>Price: IDR 775,000/person (Minimum 2 persons)</em></p>
+      <b>One Day Trip Ijen</b>- Embark on a captivating one-day journey from Bali to the enchanting Ijen Crater with our exclusive One Day Trip Ijen tour. In the early hours, witness the mesmerizing blue flames and the industrious sulfur miners at work. Led by experienced guides, trek through rugged terrain and volcanic landscapes to reach the crater rim. As the sun rises, be awed by the breathtaking vista of the turquoise acidic lake below. Immerse yourself in the geological wonders and cultural richness of this unique destination. Whether you’re a nature enthusiast or a curious traveler, our One Day Trip Ijen promises an unforgettable adventure from Bali. Join us for a day of exploration and discovery amidst the wonders of East Java.
+      
     </>),
   items: [
     {
-      title: 'Jatiluwih rice terraces',
+      title: 'Ice of blue fire on Ijen',
       description:
-        'Walk through the expansive Jatiluwih rice terraces (UNESCO site)',
+        'Meet the previous day at 5pm, drop off at hotel for sleep, wake up at 2AM for the hike.',
     },
     {
-      title: 'Ulun Danu Beratan Lake Temple',
+      title: 'Sunrise on Ijen',
       description:
-        'Admire the floating temple of Ulun Danu Beratan',
+        'Experience the magic',
     },
     {
-      title: 'Banyumala Twin Waterfalls',
+      title: '6 hour hike',
       description:
-        'Swim beneath the lush Banyumala Twin Waterfalls',
+        'Through beautiful terrains',
     },
   ],
   image: {
-    src: jatiluwihRiceTerrace,
+    src: ijenCrater,
     alt: 'Colorful Image',
   },
   isReversed: false,
@@ -328,7 +329,7 @@ export const stepsHome: StepsProps = {
     alt: 'Steps image',
   },
   header: {
-    title: "Of course, those are just ideas. We know everyone is different - so tell us what you like (surfing, dirt biking, cafe-hopping?), and we'll design something special for you.",
+    title: "Tap on our insights to customize your own experience!",
   },
   items: [
     {
